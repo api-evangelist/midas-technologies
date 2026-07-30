@@ -1,20 +1,56 @@
 aid: midas-technologies
 name: MIDAS Technologies
-description: MIDAS Technologies is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+description: 'Midas (Midas Technologies / Midas Inc.) is a free consumer cash-rewards
+  and loyalty app in Mexico, built around the slogan "Tu efectivo cuenta" (your cash
+  counts). Shoppers earn points worth up to 5% back when paying at affiliated merchants,
+  where one Midas point equals one Mexican peso and accumulated points can be spent
+  to pay the full total of a bill at participating stores. The app lets users create
+  an account in under three minutes with just a name and phone number, view their
+  points balance, browse promotions and discounts, find nearby affiliated stores on
+  an interactive map, and track a full history of transactions and purchase tickets.
+  Merchants can affiliate their business ("Afilia tu negocio") to reward customers.
+  The company is a consumer-facing mobile app and publishes no public developer API,
+  SDK, or API documentation. It was surfaced as a 500 Global portfolio company and
+  added to the API Evangelist network for enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/midas-technologies/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/Zp1k7IKerOBc1LNiegjCX6HA.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Payments
+- Loyalty
+- Rewards
+- Consumer
+- Mobile App
+- Cashback
+- Mexico
+- Financial Inclusion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +58,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/midas-technologies-domain-security.yml
 - type: Website
-  url: https://midascash.app
+  url: https://www.midascash.app/
+- type: Blog
+  url: https://www.midascash.app/blog
+- type: TermsOfService
+  url: https://www.midascash.app/tyc
+- type: PrivacyPolicy
+  url: https://www.midascash.app/politica-de-privacidad
